@@ -1,16 +1,9 @@
-let w = 7;
-let x = 4;
-let y = 2;
-let z = 6;
+var w =4;
+var x =7;
+var y =12;
+var z =2;
 
-if (x + y === 6) {
-  console.log (z)
-}
-
-if (x + z === 10) {
-  console.log (w)
-}
-
-if (x - z < 0) {
-  console.log (y)
-}
+console.log (x*y+w-z);
+console.log (x*y+w-z/w);
+console.log (w*x*y*z);
+console.log (z-x*w/y);
